@@ -1,0 +1,6 @@
+#img-banner {
+    object-fit: fill;
+    width: 100%;
+    align-items: center;
+    background-attachment: local;
+}

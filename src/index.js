@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Banner from './Banner';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './Navigation';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navigation />
+    <Banner />
   </React.StrictMode>,
   document.getElementById('root')
 );
