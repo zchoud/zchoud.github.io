@@ -1,0 +1,12 @@
+.navbar {
+    height: 80px;
+}
+
+.nav .nav-item {
+    padding-left: 100px;
+}
+
+.px-50 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}

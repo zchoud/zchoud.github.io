@@ -1,5 +1,5 @@
-import { Container } from "react-bootstrap";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container} from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,17 +7,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Navigation = () => {
   return (
     <div>
-      <Navbar variant="dark" bg="dark" expand="lg" >
+      <Navbar variant="dark" bg="dark" expand="lg" className="fixed-top">
         <Container fluid id="nav-container">
-          <Navbar.Toggle aria-controls="navbar-dark" />
-          <Navbar.Collapse id="navbar-dark">
-            <Nav className='m-auto'>
-              <NavDropdown id="nav-dropdown-dark" title="Dropdown" menuVariant="dark">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              </NavDropdown>
+            <Nav className="mx-auto">
+              <Nav.Item className="px-5">
+                <Nav.Link>About</Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="px-5">
+                <Nav.Link>Skills</Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="px-5">
+                <Nav.Link>Education</Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="px-5">
+                <Nav.Link>Experience</Nav.Link>
+              </Nav.Item>
             </Nav>
-          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

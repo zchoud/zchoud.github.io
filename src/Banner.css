@@ -1,6 +1,9 @@
-#img-banner {
-    object-fit: fill;
-    width: 100%;
+#body {
+    background: url(./Cyber-security_ccexpress.jpeg);
     align-items: center;
-    background-attachment: local;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top: -600px;
 }

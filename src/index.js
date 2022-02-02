@@ -4,11 +4,13 @@ import './index.css';
 import Banner from './Banner';
 import reportWebVitals from './reportWebVitals';
 import Navigation from './Navigation';
+import Block from './block'
 
 ReactDOM.render(
   <React.StrictMode>
     <Navigation />
     <Banner />
+    <Block />
   </React.StrictMode>,
   document.getElementById('root')
 );
