@@ -1,0 +1,24 @@
+.body {
+    background: #222;
+}
+
+.bio-heading {
+    padding-top: 20px;
+    text-align: left;
+    color: darkturquoise;
+}
+
+.bio-name {
+    padding-top: 20px;
+    text-align: left;
+    color: deepskyblue;
+}
+
+.bio-body {
+    color: white;
+}
+
+#img-box {
+    margin: auto;
+    padding: 70px 0;
+}
