@@ -5,12 +5,14 @@ import Banner from './Banner';
 import reportWebVitals from './reportWebVitals';
 import Navigation from './Navigation';
 import Bio from './Bio';
+import Skills from './Skills';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navigation />
     <Banner />
     <Bio />
+    <Skills />
   </React.StrictMode>,
   document.getElementById('root')
 );

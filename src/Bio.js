@@ -5,7 +5,7 @@ import Portrait from "./Portrait";
 
 function Bio() {
   return (
-    <div className="body">
+    <div  className="body">
       <Container>
         <Row>
             {/* Future Change: Work on making each of theses a call to a database and fill */}
@@ -15,13 +15,13 @@ function Bio() {
           <Col className="col-lg-9">
             <Row>
               <Col className="col-md-12">
-                <h4 class="bio-heading">About</h4>
+                <h4 className="bio-heading">About</h4>
               </Col>
               <Col className="col-md-12">
-                <h2 class="bio-name">Zian Choudhury</h2>
+                <h2 className="bio-name">Zian Choudhury</h2>
               </Col>
               <Col className="col-md-12">
-                <div class="bio-body">
+                <div className="bio-body">
                 <p>
                   Curabitur tortor. Pellentesque nibh. Aenean quam. In
                   scelerisque sem at dolor. Maecenas mattis. Sed convallis

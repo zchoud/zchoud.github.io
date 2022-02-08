@@ -1,0 +1,22 @@
+.icon-body {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.imgName {
+    display: none;
+}
+
+.icon-body img {
+    display: flex;
+    max-height: 100px;
+    max-width: 110px;
+    margin-right: 10px
+}
+
+.icon-body img:hover {
+    max-height: 120px;
+    max-width: 130px;
+}
