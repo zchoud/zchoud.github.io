@@ -1,0 +1,31 @@
+#education-group {
+    margin-top: 40px;
+    justify-content: center;
+    background-color: #222222;
+    position: relative;
+}
+
+#education-group .col {
+    background-color: #222222;
+    width: 100%;
+}
+
+.edu-grp-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+.edu-crd-grp .col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+}
+
+#edu-wrap {
+    position: relative;
+    height: 760px;
+}

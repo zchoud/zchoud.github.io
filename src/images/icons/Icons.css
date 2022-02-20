@@ -13,10 +13,5 @@
     display: flex;
     max-height: 100px;
     max-width: 110px;
-    margin-right: 10px
-}
-
-.icon-body img:hover {
-    max-height: 120px;
-    max-width: 130px;
+    padding: 5px;
 }

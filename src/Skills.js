@@ -7,7 +7,7 @@ function Skills() {
 
   return (
     <div id="icon-set">
-    <Container>
+    <Container fluid>
           <Row><h1>Skills</h1></Row>
           <Row><Icons /></Row>
     </Container>

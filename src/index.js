@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Navigation from './Navigation';
 import Bio from './Bio';
 import Skills from './Skills';
+import Education from './Education';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation />
     <Banner />
+    <Navigation />
     <Bio />
     <Skills />
+    <Education />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,7 @@
+.circle {
+    display: flex !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: cadetblue !important;
+    border-radius: 50% !important;
+}
