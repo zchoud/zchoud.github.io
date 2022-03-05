@@ -1,4 +1,4 @@
-.card {
+div#card-elements .card {
     height: 600px;
     width: 400px;
     margin-left: 20px;
@@ -9,7 +9,7 @@
     border-radius: 10px;
 }
 
-.card-title {
+div#card-elements .card-title {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -17,7 +17,7 @@
     padding: 20px;
 }
 
-.background-off {
+div#card-elements .background-off {
     background-color: cadetblue;
     height: 590px;
     width: 400px;
@@ -25,9 +25,10 @@
     left: 0;
     border-radius: 10px;
     margin-bottom: -270px;
+    overflow: none;
 }
 
-.card-elements {
+div#card-elements .card-elements {
     position: absolute;
     background-color: #222222;
 }

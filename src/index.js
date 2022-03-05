@@ -7,13 +7,15 @@ import Navigation from './Navigation';
 import Bio from './Bio';
 import Skills from './Skills';
 import Education from './Education';
+import Experience from './Experience';
 
 ReactDOM.render(
   <React.StrictMode>
     <Banner />
     <Navigation />
     <Bio />
-    <Skills />
+    <Skills />    
+    <Experience />
     <Education />
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,0 +1,25 @@
+.exp-head {
+    padding: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#exp-group {
+    background-color: cadetblue;
+    margin-top: 20px;
+}
+
+#exp-group .accordion {
+    margin: 0 10%;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+#exp-group .accordion .accordion-button,
+#exp-group .accordion h2.accordion-header {
+    background-color: slategrey;
+    margin: -1px;
+    border-radius: 3px;
+    color: whitesmoke;
+}
