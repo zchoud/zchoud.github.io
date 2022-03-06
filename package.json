@@ -30,12 +30,13 @@
         "extends": [
             "react-app",
             "react-app/jest"
-            2
         ]
     },
     "browserslist": {
         "production": [
-            ">0.2%", 3 "not dead",
+            ">0.2%",
+            "not dead",
+            "not ie <= 11",
             "not op_mini all"
         ],
         "development": [
