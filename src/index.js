@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 import './index.css';
 import Banner from './Banner';
 import reportWebVitals from './reportWebVitals';
@@ -10,6 +11,7 @@ import Education from './Education';
 import Experience from './Experience';
 
 ReactDOM.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <React.StrictMode>
     <Banner />
     <Navigation />
@@ -17,7 +19,8 @@ ReactDOM.render(
     <Skills />    
     <Experience />
     <Education />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
